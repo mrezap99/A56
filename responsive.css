@@ -1,0 +1,89 @@
+/* Tambahkan breakpoint max-width: 1000px */
+@media (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .header-right a {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+    /*padding-top: 130px;*/
+  }
+
+  .menu-toggle input {
+    visibility: visible;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .header-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 470px;
+    margin: 0px;
+    /* width: 100%; */
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(34, 49, 52, 0.288);
+    justify-content: space-evenly;
+    z-index: -1;
+    transform: translateX(100%);
+    /* transition: step-end 0.3s; */
+    opacity: 0;
+  }
+
+  .header-right a {
+    margin: 0;
+  }
+
+  .header-right.slide {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .menu_icon {
+    visibility: visible;
+    display: block;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
